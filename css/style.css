@@ -64,3 +64,5 @@ h1 img {width: 280px;}
 .side:hover {right: -500px; opacity: 0.8;}
 .side .con >p img {opacity:0.3}    
 .side .con >p img:hover {opacity: 1; transition: all 2s;}
+
+.side .btnContents {position: absolute; bottom: 40px; left: 0; color: #b9fb05; font-size: 60px; transform: skew(45deg);}
