@@ -65,4 +65,16 @@ h1 img {width: 280px;}
 .side .con >p img {opacity:0.3}    
 .side .con >p img:hover {opacity: 1; transition: all 2s;}
 
-.side .btnContents {position: absolute; bottom: 40px; left: 0; color: #b9fb05; font-size: 60px; transform: skew(45deg);}
+.side .btnContents {position: absolute; bottom: 40px; left: 150px; color: #b9fb05; font-size: 60px; transform: skew(40deg);
+    width: 150px; height: 50px;}
+.side:hover .btnContents i{ left: 700px;} 
+.side .btnContents i {position: absolute; top: 0; right: 0;
+    animation: arrowAni 1.5s infinite linear;}
+.side .btnContents i:nth-child(1) {animation-delay: 0s;}
+.side .btnContents i:nth-child(2) {animation-delay: 0.5s;}
+.side .btnContents i:nth-child(3) {animation-delay: 1s;}
+
+@keyframes arrowAni {
+    0% {}
+    100%{ opacity: 0; transform: scale(1.5);right: 100px;}
+ }
